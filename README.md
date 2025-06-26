@@ -17,7 +17,7 @@ OK
 ```
 Reports `OK` or halts when an error is detected, where `temp_words.txt` is the set of words seaarched as a pattern and `temp_results.txt` is the output with a problem.
 
-The bulk of the tests are designed go through all possible pattern match methods and optimizations.  This is independent of the ugrep command line options.  The SIMD optimizations with which ugrep was compiled are tested, when SIMD is enabled, which is one of SSE2, AVX2, AVX512BW, NEON, or AArch64.
+The bulk of the tests are designed go through all possible pattern match methods and optimizations with randomized patterns.  This is independent of the ugrep command line options.  The SIMD optimizations with which ugrep was compiled are tested, when SIMD is enabled, which is one of SSE2, AVX2, AVX512BW, NEON, or AArch64.
 
 ## Data
 
