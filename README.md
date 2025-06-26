@@ -9,7 +9,7 @@ $ ./setup.sh
 
 ## Run
 
-Run the tests that can take hours to complete:
+Run the extensive barrage of tests, which can take hours to complete:
 ```console
 $ ./run.sh
 ...
